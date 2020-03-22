@@ -22,11 +22,11 @@ public class CustomerManagerApp {
             action = Console.getString("Enter a command: ");
             System.out.println();
 
-            if (action.equalsIgnoreCase("list")) {
+            if (action.equalsIgnoreCase("1")) {
                 displayAllCustomers();
-            } else if (action.equalsIgnoreCase("add")) {
+            } else if (action.equalsIgnoreCase("2")) {
                 addCustomer();
-            } else if (action.equalsIgnoreCase("del") || action.equalsIgnoreCase("delete")) {
+            } else if (action.equalsIgnoreCase("3") || action.equalsIgnoreCase("del")) {
                 deleteCustomer();
             } else if (action.equalsIgnoreCase("help") || action.equalsIgnoreCase("menu")) {
                 displayMenu();
