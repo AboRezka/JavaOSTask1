@@ -40,11 +40,11 @@ public class CustomerManagerApp {
 
     public static void displayMenu() {
         System.out.println("COMMAND MENU");
-        System.out.println("list    - List all customers");
-        System.out.println("add     - Add a customer");
-        System.out.println("del     - Delete a customer");
-        System.out.println("help    - Show this menu");
-        System.out.println("exit    - Exit this application\n");
+        System.out.println("1      - List all customers");
+        System.out.println("2      - Add a customer");
+        System.out.println("3      - Delete a customer");
+        System.out.println("help   - Show this menu");
+        System.out.println("exit   - Exit this application\n");
     }
 
     public static void displayAllCustomers() {
